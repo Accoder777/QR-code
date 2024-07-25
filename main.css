@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_178851317_308926.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: auto;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.441),rgba(255, 255, 255, 0.54));
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.p0{
+    padding: 10px;
+    width: auto;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0),rgba(255, 255, 255, 0));
+}
+input{
+    width: 80%;
+    margin: 10px auto;
+    height: 30px;
+    border: 0;
+    outline: none;
+    padding: 5px 10px;
+    background-color: rgba(58, 58, 114, 0);
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    border-bottom: 1px solid black;
+}
+
+.btn{
+    width: 80%;
+    margin: 10px auto;
+    border: 0;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.info img{
+    /* display: none; */
+    height: 200px;
+}
